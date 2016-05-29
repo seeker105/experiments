@@ -5,6 +5,7 @@ class FunRun
   def initialize
     @dividend = 5.0
     @result = 5.0
+    get_creative
   end
 
   def find_percentage(value, percent_of)
@@ -17,6 +18,13 @@ class FunRun
   def calculate
     @creative = 0
     @variable = "Definitely"
+  end
+
+  def get_creative
+    a = [1,2,3,4,5,6]
+    a.each do |num|
+      puts num
+    end
   end
 
 end
